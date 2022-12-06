@@ -7,6 +7,7 @@ import tqdm
 import datetime
 import uuid
 
+# main xinss
 os.environ['VAR_NAME']=sys.argv[1]                       # 设置与实验相关的环境变量（如CUDA_VISIBLE_DEVICES）
 experiment_id = str(uuid.uuid1())[:8]                    # 生成本次实验的UUID
 experiment_name = name                                   # 设置描述本次实验的名称
